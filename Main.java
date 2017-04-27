@@ -64,7 +64,7 @@ public class Main {
 	        InputStream in = new ByteArrayInputStream(imageInByte);
 	        BufferedImage bImageFromConvert = ImageIO.read(in);
 
-	        ImageIO.write(bImageFromConvert, "png", new File("/users/studs/bsc/2015/demri/Pictures/newImg.png"));
+	        ImageIO.write(bImageFromConvert, "png", new File("newImg containig text.png"));
 			
 			}		
 			
