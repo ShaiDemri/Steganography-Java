@@ -16,14 +16,14 @@ public class Main {
 
 
 	// *** The picture in which we hide our massage *****
-	private static final String IMG_PATH = "/users/studs/bsc/2015/demri/Pictures/2017.png";
+	private static final String IMG_PATH = "insert a path of YOUR png file";
 	
 
 	public static void main(String[] args) {
 		Scanner sc2 = null;
 		String line="";
 		try {
-			sc2 = new Scanner(new File("/users/studs/bsc/2015/demri/Pictures/text.txt"));
+			sc2 = new Scanner(new File("insert a path of YOUR text file"));
 		} 
 		catch (FileNotFoundException e) {
 			e.printStackTrace();  
